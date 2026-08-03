@@ -1,19 +1,30 @@
-body {background-color: coral;}
+body {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background-color: rgb(255, 204, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .square {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: blue;
+    margin: 50px;
 }
 
 .rectangle {
-    width: 350px;
-    height: 130px;
+    width: 400px;
+    height: 80px;
     background-color: rgb(255, 0, 247);
 }
