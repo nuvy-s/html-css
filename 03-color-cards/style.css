@@ -2,11 +2,16 @@ body{
     background-color: rgb(224, 255, 255);
     height: 100vh;
 }
+h1{text-align: center;}
+
 .container{
+    margin: auto;
+    width: 300px;
     display: flex;
     justify-content:center;
     align-items:center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .card{
