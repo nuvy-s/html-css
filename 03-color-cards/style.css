@@ -17,8 +17,17 @@ h1{text-align: center;}
 .card{
     width: 140px;
     height: 200px;
-    background-color: aqua;
+    background-color: red;
     border: solid white;
+}
+.card:nth-child(2){
+    background-color: yellow; /* 비효율적이라고 느껴졌다.. */
+}
+.card:nth-child(3){
+    background-color: green;
+}
+.card:nth-child(4){
+    background-color: blue;
 }
 
 .text{
