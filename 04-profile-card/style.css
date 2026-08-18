@@ -3,3 +3,20 @@
     height: 700px;
     border: 2px solid black;
 }
+header{
+    width: 400px;
+    height: 220px;
+    border: 1px solid red;
+}
+
+main{
+    width: 400px;
+    height: 130px;
+    border: 1px solid yellow;
+}
+
+footer{
+    width: 400px;
+    height: 350px;
+    border: 1px solid blue;
+}
