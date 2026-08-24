@@ -10,6 +10,7 @@ body{
     width: 400px;
     height: 700px;
     border: 2px solid black;
+    padding: 20px;
     
 }
 header{
@@ -18,15 +19,17 @@ header{
     border: 1px solid red;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .profile{
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    
-
+    margin: 30px;
+}
+.text{
+    margin-left: 20px;
 }
 
 main{
@@ -38,15 +41,29 @@ main{
     justify-content: center;
 }
 
+.icon{
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    margin: 0px 25px;
+}
+
 footer{
     width: 400px;
     height: 350px;
     border: 1px solid blue;
     
 }
-
-.icon{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 15px;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    margin-right: 25px;
+    
 }
