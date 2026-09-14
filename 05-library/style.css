@@ -7,6 +7,10 @@ header{
     width: 450px;
     height: 150px;
     background-color: orange;
+    display: flex;
+    justify-content: center;/*flex사용할경우 가로로 나열 즉 주축*/
+    align-items: center;
+    /* text-align: center; 텍스트 가운데 정렬*/
 }
 
 img{
