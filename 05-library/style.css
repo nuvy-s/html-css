@@ -3,6 +3,9 @@
     margin: 0 auto;
 }
 
+h2{
+    margin-left: 20px;
+}
 header{
     width: 450px;
     height: 150px;
@@ -14,8 +17,8 @@ header{
 }
 
 img{
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
 }
 
 .search{
@@ -32,7 +35,7 @@ img{
    
 }
 input{
-    width: 350px;
+    width: 330px;
     height: 45px;
     border: none;
     outline: none;
@@ -42,4 +45,14 @@ i{
     margin: 0 25px;
     color:orangered;
     font-size: 20px;
+}
+.section-list{
+    margin-left: 20px;
+    display: flex;
+}
+.section-image{
+    margin-right: 20px;
+}
+.section-actions{
+
 }
