@@ -49,10 +49,18 @@ i{
 .section-list{
     margin-left: 20px;
     display: flex;
+    
 }
 .section-image{
     margin-right: 20px;
 }
 .section-actions{
+    margin-bottom: 10px;
+}
+p{
+    margin: auto;
+    font-size: 20px;
+}
+.section-but{
 
 }
